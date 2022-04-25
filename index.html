@@ -21,6 +21,7 @@
   
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   </head>
 
   <body>
@@ -37,10 +38,10 @@
       <div id="today" class="grid-container"></div>
   
       <div id="time-blocks" class="contianer">
-        <div class="grid-container">
+        <div  class="grid-container">
         
           <p class="hour">9AM</p>
-          <input type="description">
+          <textarea id="9AM" name="9" type="description"></textarea>
           <button id="saveInput"  type="save" class="saveBtn">SAVE</button>
           
         </div>
@@ -50,37 +51,57 @@
         <div class="grid-container">
         
           <p class="hour">10AM</p>
-          <input id="saveInput" type="description">
+          <textarea id="10AM" name="10" type="description"></textarea>
           <button type="save" class="saveBtn">SAVE</button>
           
         </div>
       </div>
 
       <div id="time-blocks" class="contianer">
-        <div class="grid-container">
+        <div  class="grid-container">
         
           <p class="hour">11AM</p>
-          <input id="saveInput" type="description">
+          <textarea id="11AM" name="11" type="description"></textarea>
           <button type="save" class="saveBtn">SAVE</button>
           
         </div>
       </div>
 
       <div id="time-blocks" class="contianer">
-        <div class="grid-container">
+        <div  class="grid-container">
         
           <p class="hour">12AM</p>
-          <input id="saveInput" type="description">
+          <textarea id="12AM" name="12" type="description"></textarea>
           <button type="save" class="saveBtn">SAVE</button>
           
         </div>
       </div>
 
       <div id="time-blocks" class="contianer">
-        <div class="grid-container">
+        <div  class="grid-container">
         
           <p class="hour">1PM</p>
-          <input id="saveInput" type="description">
+          <textarea id="1PM" name="13" type="description"></textarea>
+          <button type="save" class="saveBtn">SAVE</button>
+          
+        </div>
+      </div>
+
+      <div id="time-blocks" class="contianer">
+        <div  class="grid-container">
+          
+          <p class="hour">2PM</p>
+          <textarea id="2PM" name="14" type="description"></textarea>
+          <button type="save" class="saveBtn">SAVE</button>
+        
+        </div>
+      </div>
+
+      <div id="time-blocks" class="contianer">
+        <div  class="grid-container">
+          
+          <p class="hour">3PM</p>
+          <textarea id="3PM" name="15" type="description"></textarea>
           <button type="save" class="saveBtn">SAVE</button>
           
         </div>
@@ -88,41 +109,21 @@
 
       <div id="time-blocks" class="contianer">
         <div class="grid-container">
-          <form>
-          <p class="hour">2PM</p>
-          <input id="saveInput" type="description">
-          <button type="save" class="saveBtn">SAVE</button>
-          </form>
-        </div>
-      </div>
-
-      <div id="time-blocks" class="contianer">
-        <div class="grid-container">
-          <form>
-          <p class="hour">3PM</p>
-          <input id="saveInput" type="description">
-          <button type="save" class="saveBtn">SAVE</button>
-          </form>
-        </div>
-      </div>
-
-      <div id="time-blocks" class="contianer">
-        <div class="grid-container">
-          <form>
+          
           <p class="hour">4PM</p>
-          <input id="saveInput" type="description">
+          <textarea id="4PM" name="15" type="description"></textarea>
           <button type="save" class="saveBtn">SAVE</button>
-          </form>
+          
         </div>
       </div>
 
       <div id="time-blocks" class="contianer">
-        <div class="grid-container">
-          <form>
+        <div  class="grid-container">
+          
           <p class="hour">5PM</p>
-          <input id="saveInput" type="description">
+          <textarea id="5PM" name="16" type="description"></textarea>
           <button type="save" class="saveBtn">SAVE</button>
-          </form>
+          
         </div>
       </div>
     <script src="./script.js"></script> 

@@ -58,7 +58,15 @@ textarea {
   background-color: #77dd77;
   color: white;
 }
-
+.bg-red {
+  background-color: #ff6961;
+}
+.bg-green {
+  background-color: #77dd77;
+}
+.bg-gray {
+  background-color: grey;
+}
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
