@@ -25,10 +25,9 @@ textarea {
 
 .description {
   white-space: pre-wrap;
-  display: inline-block;
 }
 
-.time-block {
+.time-blocks {
   text-align: center;
   border-radius: 15px;
 }
